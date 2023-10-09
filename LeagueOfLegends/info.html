@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="css\css.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIOT.App.JS</title>
+    <script src="js\js.js"></script>
+</head>
+<body onload="leerUrl()">
+    <div class="invisible">
+
+    </div>
+    <div class="borde_tabla">
+        <table class="tabla">
+            <tr>
+                <td>NOMBRE</td>
+                <td><div id="nombreSummoner"></div></td>
+            </tr>
+            <tr>
+                <td>NIVEL</td>
+                <td><div id="nivel"></div></td>
+            </tr>
+            <tr>
+                <td>RANGO</td>
+                <td><div id="rank"></td>
+            </tr>
+            <tr>
+                <td>TIER</td>
+                <td><div id="tier"></div></td>
+            </tr>
+            <tr>
+                <td>VICTORIAS</td>
+                <td><div id="victorias"></div></td>
+            </tr>
+            <tr>
+                <td>DERROTAS</td>
+                <td><div id="derrotas"></div></td>
+            </tr>
+        </table>
+    </div>
+       
+   
+    <div class="botones">
+        <div class="buton">
+            <input type="button" id="boton" name="boton" value="Ver XMLS" onclick="mostrarXMLS()"> 
+        </div>
+        <div class="buton">
+            <input type="button" id="boton" name="boton" value="Ver JSON" onclick="mostrarJSON()"> 
+        </div>
+    </div>
+
+</body>
+</html>

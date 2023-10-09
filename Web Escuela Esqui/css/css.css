@@ -1,0 +1,25 @@
+body {color:rgb(34, 27, 90)}
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {background-color: rgb(205, 222, 240);}
+.table1 {border-width: 4px; border-color: azure; border-style: solid; margin-left:120px; width: 80%;}
+.titulo-tabla1 {background-color: aliceblue; text-align: center;}
+div {margin-top: 2%;margin-bottom: 1%; margin-left: 1%;}
+.divfoto2 {width: 50%; padding:1%;margin-left:40px}
+.divfoto3 {width: 50%; padding:1%; margin-left:60px;}
+#foto1 {margin-left:60px; margin-right: 80px; border-width: 3px}
+#foto2 { width:600px; height: 500px;}
+#foto3 {width:600px; height:500}
+#foto4 {margin-left:200px;margin-top: 50px; margin-bottom: 50px}
+#foto5 {margin-left:40px}
+h4 {color:rgb(129, 37, 58)}
+h1 {color:darkslateblue}
+h2 {color:indigo}
+.borde-titulo {background-color: rgb(255, 255, 255); border-radius: 5; border-color: rgb(220, 216, 251);border-style: double; border-radius: 20px;}
+.borde3 {border-width: 4px; border-style:dotted; border-color: aliceblue;}
+.titulo {text-align: center;}
+span {font-style: italic; font-weight: bold;}
+.titulo-final {width: 50%;}
+.titulo-final1 {font-size: xx-large; font-weight: bold; color:darkslateblue; width: 50%; text-align: center;}
+.bloque-final {display:flex}
+
+
